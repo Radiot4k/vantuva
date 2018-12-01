@@ -469,7 +469,6 @@ img {
 .main-nav__item {
   width: 70%;
   padding: 15px 0;
-  font-family: "Questrial", sans-serif;
   text-align: center;
 }
 .main-nav__item:not(:last-child) {
@@ -477,9 +476,11 @@ img {
 }
 .main-nav__item a {
   padding: 20px 0;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
   text-decoration: none;
   color: #ffffff;
-  letter-spacing: 0.2em;
+  letter-spacing: 2px;
 }
 @media (max-width: 767px) {
   .main-nav:not(.main-nav--nojs) .main-nav__list {
@@ -520,6 +521,7 @@ img {
   font-size: 27px;
   text-align: center;
   line-height: 1em;
+  text-transform: capitalize;
 }
 .license {
   width: 100%;
@@ -547,6 +549,7 @@ img {
   font-weight: normal;
   text-align: center;
   line-height: 1em;
+  text-transform: capitalize;
 }
 .license__text {
   margin: 0;
